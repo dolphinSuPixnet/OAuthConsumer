@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
 # Source Info
   s.platform     =  :ios, '4.3'
   s.source       =  {:git => 'https://github.com/dolphinSuPixnet/OAuthConsumer.git', :tag => '1.0'}
-  s.source_files = 'OAuthConsumer/Class/*.*'
-  s.framework    =  'Security.framework'
+  s.source_files = 'OAuthConsumer/Class/*.*', 'OAuthConsumer/Class/Categories', 'OAuthConsumer/Class/Crypto'
+  s.framework    =  'Security.framework', 'libxml2.dylib'
 
   s.requires_arc = false
   

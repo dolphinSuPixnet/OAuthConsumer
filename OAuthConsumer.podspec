@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = '1.0'
   s.license      =  {:type => 'Apache License 2.0'}
   s.homepage     = 'http://oauth.googlecode.com/svn/code/obj-c/OAuthConsumer/'
-  s.authors      =  {'' => ''}
+  s.authors      =  {'Jon Crosby' => ''}
   s.summary      = 'This is a cocoapods ready version of: http://oauth.googlecode.com/svn/code/obj-c/OAuthConsumer/'
 
 # Source Info

@@ -38,7 +38,6 @@
 		CED26BE5192F30F800104149 /* OATestServer.rb in Resources */ = {isa = PBXBuildFile; fileRef = CED26BCE192F30F800104149 /* OATestServer.rb */; };
 		CED26BE6192F30F800104149 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = CED26BD0192F30F800104149 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CED26BE7192F30F800104149 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CED26BD2192F30F800104149 /* OATokenManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CED26BE8192F30F800104149 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CED26BD4192F30F800104149 /* README */; };
 		CED26BEA192F315B00104149 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED26BE9192F315B00104149 /* Security.framework */; };
 		CED26BEC192F317200104149 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CED26BEB192F317200104149 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
@@ -109,7 +108,6 @@
 		CED26BD1192F30F800104149 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
 		CED26BD2192F30F800104149 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
 		CED26BD3192F30F800104149 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
-		CED26BD4192F30F800104149 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		CED26BE9192F315B00104149 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CED26BEB192F317200104149 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -245,7 +243,6 @@
 				CED26BD1192F30F800104149 /* OATokenManager.h */,
 				CED26BD2192F30F800104149 /* OATokenManager.m */,
 				CED26BD3192F30F800104149 /* OAuthConsumer.h */,
-				CED26BD4192F30F800104149 /* README */,
 			);
 			name = Class;
 			path = OAuthConsumer/Class;
@@ -352,7 +349,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED26BE8192F30F800104149 /* README in Resources */,
 				CED26BE5192F30F800104149 /* OATestServer.rb in Resources */,
 				CED26B86192F308A00104149 /* InfoPlist.strings in Resources */,
 				CED26B8E192F308A00104149 /* Images.xcassets in Resources */,
